@@ -1,0 +1,192 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: rgba(28, 17, 41, 0.88);
+}
+
+.menu-bar {
+  height: 88vh;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 13px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  /* Căn về bên trái */
+  align-items: center;
+  /* Căn giữa theo chiều dọc */
+  padding: 0 20px;
+  /* Thêm khoảng cách */
+}
+
+
+.butt {
+  gap: 0;
+}
+
+.toggle {
+  margin-left: 15px;
+}
+
+.dark-theme {
+  background-color: #001529;
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+.ant-menu-item {
+  margin: 0;
+}
+
+:where(.css-dev-only-do-not-override-5wsri9).ant-menu-inline .ant-menu-item,
+:where(.css-dev-only-do-not-override-5wsri9).ant-menu-vertical .ant-menu-item,
+:where(.css-dev-only-do-not-override-5wsri9).ant-menu-inline .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-5wsri9).ant-menu-vertical .ant-menu-submenu-title {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.test {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+}
+
+.bottom-menu {
+  justify-content: flex-end;
+}
+
+.header-menu {
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+
+
+.login-container, .register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f0f2f5;
+}
+
+.login-form, .register-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2, .register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form .ant-form-item, .register-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.login-form .ant-btn, .register-form .ant-btn {
+  width: 100%;
+}
+
+.login-form-register, .register-form-login {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.login-form-register a, .register-form-login a {
+    color: #1890ff;
+}
+
+.login-form-register a:hover, .register-form-login a:hover {
+    text-decoration: underline;
+}
+
+.dark-theme .login-form-register a, .dark-theme .register-form-login a {
+    color: #40a9ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #b3d7ff;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.icon-in_out {
+  margin-right: 2px;
+  margin-top: 1px;
+}
+
+.trang-chu {
+  background-image: url('/src/IMG/nen1.jpg'); /* Đảm bảo đường dẫn đúng */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh; 
+  /* width: 80vw; */
+}
+
+
